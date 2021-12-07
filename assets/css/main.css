@@ -34,7 +34,6 @@ h6,
 
 .container-fluid{
     width: 95%;
-    
 }
 
 
@@ -46,6 +45,12 @@ body {
     background-color: var(--white);
     font-family: "Solaimanlipi", sans-serif;
 }
+
+.container-fluid{
+    padding: 0;
+    overflow-x: hidden;
+  }
+
 
 a {
     text-decoration: none !important;
