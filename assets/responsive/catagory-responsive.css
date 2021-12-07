@@ -1,0 +1,79 @@
+
+  @media only screen and (max-width: 1199px){
+    .center-divs .ratio-16x9{
+    --bs-aspect-ratio: calc(9 / 14.3 * 100%);
+  }
+  }
+
+@media only screen and (max-width: 991px) {
+  .latest-news-boxes {
+      padding-bottom: 0rem !important;
+  }
+  .single-box {
+      height: auto !important;
+      margin: 0 !important;
+  }
+  .single-box .play-btn {
+      width: 50px !important;
+  }
+
+  .center-divs .col-lg-12{
+    margin-top: 0rem !important;
+     
+  }
+
+}
+@media only screen and (max-width: 823px) {
+  .add-header {
+      position: relative !important;
+      top: 0 !important;
+      right: 0 !important;
+      margin: auto !important;
+  }
+  .catagory-title {
+      margin: auto !important;
+  }
+  .header-element .catagory-title h3 {
+      text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header-add {
+      max-width: 100% !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .top-row {
+      margin-top: -1.4rem !important;
+  }
+  .img-div {
+      margin-bottom: 0.5rem;
+  }
+
+  .myclasstwo {
+      margin-top: -0.2rem;
+  }
+  .container-fluid {
+      padding: 0 !important;
+  }
+  .container {
+      padding: 0 !important;
+  }
+  .single-box {
+      padding: 0 !important;
+  }
+.center-divs .play-btn{
+    width:30px !important;
+}
+/*---------------------*/
+.center-divs .col-lg-12{
+    margin-top: .5rem !important;
+  }
+  .center-divs .col-lg-12:nth-child(1){
+    margin-top: 0rem !important;
+  }
+  .top-row .col-lg-5:last-child{
+    margin-top: .7rem !important;
+  }
+}
+

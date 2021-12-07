@@ -1,0 +1,242 @@
+
+.full-page{
+  margin-top:3.6rem;
+}
+.full-page .ratio{
+  border:none;
+}
+
+.banner-content button{
+  outline: none !important;
+  box-shadow: none !important;;
+  border: none !important;
+}
+.page-banner .ratio-16x9{
+  --bs-aspect-ratio: calc(9 / 20 * 100%);
+}
+.page-banner{
+  position: relative;
+}
+.banner-content{
+  position: absolute;
+  width:90%;
+  top:0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+.banner-content h1{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.banner-content h3{
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.banner-content .banner-elements{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: -2rem;
+}
+.banner-content .banner-elements li{
+  margin-right: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+.banner-content .banner-elements .before-li:before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #ff7800;
+  border-radius: 50px;
+  text-transform: capitalize;
+  margin-right: .5rem;
+}
+.banner-content .description{
+  max-width: 700px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.banner-content .btn-group svg{
+  color: #fff;
+}
+.banner-content .btn-group span{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.banner-content .watch-First-Episode button{
+  max-width: 260px;
+  padding: .5rem 1rem;
+  position: absolute;
+  bottom: -100px;
+  right: 10px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1rem;
+  border-radius: 0.2rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  transition: 0.5s ease;
+  border:2px solid  #eee !important;
+  background: none;
+}
+
+.banner-content .watch-First-Episode button svg{
+  transition: 0.5s ease;
+}
+.banner-content .watch-First-Episode button:hover{
+  color: #f27e0f;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.banner-content .watch-First-Episode button:hover svg{
+  color: #ffffff;
+
+}
+.banner-content .watch-First-Episode svg{
+  color: #ff7800;
+  margin-right: .5rem;
+}
+
+/*--------------margin padding-----------------------*/
+.banner-content{
+color: #fff;
+}
+
+.banner-content .banner-elements{
+ margin-top: 2rem;
+}
+.banner-content p{
+  margin-top: -.5rem;
+}
+.banner-content .description{
+margin-top: 2rem;
+}
+.banner-content h3{
+  margin-top: 2rem;
+}
+.banner-content .btn-group{
+  margin-top: 2rem;
+}
+.banner-content .btn-group button svg{
+  color:#ff7800;
+}
+.banner-content span{
+  color: #9e9898;
+  text-shadow: 2px 2px #0D0707;
+}
+.page-banner .ratio .overlay{
+  opacity: 100;
+  top:0 !important;
+  opacity: .5;
+background-image: linear-gradient(315deg, #fb5204d3 0%, #090e0efa 74%);
+}
+.banner-content{
+  z-index: 999;
+}
+
+@media only screen and (max-width: 1100px){
+  .banner-content{
+    display: none;
+  }
+  .small-screen-elements{
+    display: block !important;
+  }
+
+}
+
+/*----------------small screen----------------------*/
+.small-screen-elements{
+  display: none;
+}
+.small-screen-elements h1{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.small-screen-elements ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -2rem;
+  justify-content: left;
+  align-items: center;
+}
+.small-screen-elements ul li{
+  margin-right: .5rem;
+  font-size: 14px;
+}
+.small-screen-elements .before-li:before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #ff7800;
+  border-radius: 50px;
+  text-transform: capitalize;
+  margin-right: .5rem;
+}
+
+
+/*--------------dropdown--------------------*/
+.dropdown{
+  z-index: 999 ;
+}
+.dropbtn {
+  max-width: 260px;
+  background: none;
+  padding: .5rem 2rem;
+  bottom: 10px;
+  right: 10px;
+  color: #ff7800;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1rem;
+  border-radius: 0.2rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  transition: 0.5s ease;
+  border:2px solid #eee;
+ 
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff7800;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.owl-item .ratio{
+  border-radius: .5rem;
+}
+.owl-item .ratio .play-btn{
+  width: 30px;
+}

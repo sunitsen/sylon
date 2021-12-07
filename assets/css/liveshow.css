@@ -1,0 +1,229 @@
+.live-show-page{
+  margin-top:3.6rem;
+}
+.page-video-box .ratio{
+ border: none;
+}
+
+.video-btn-group button{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.tagline{
+    background: #000;
+  max-width: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  max-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+  z-index: 666;
+}
+
+.video-title {
+    font-size:2rem;
+    font-weight:600;
+   }
+   .video-elements-items{
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     flex-wrap: wrap;
+   }
+   .video-elements-items{
+     margin-left: -2rem;
+   }
+   .video-elements-items li{
+     margin-right:1rem;
+     font-size: 16px;
+     font-weight: 600;
+   }
+   .after-icon:before{
+    content: '';
+     display: inline-block;
+     width: 5px;
+     height: 5px;
+     background:#f27e0f;;
+     border-radius: 50px;
+     margin-right: .5rem;
+   }
+
+
+
+   
+
+    .language{
+        font-size:18px;
+      }
+      .language span{
+        font-size: 13px;
+      }
+      
+.description {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+  
+.watch-more-video{
+    background: none;
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 2px solid #eeeeee;
+    margin-block: 1rem;
+    color: gray;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    transition: 0.5s ease;
+  }
+
+  .watch-more-video:hover{
+    color: #f27e0f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+.offcanvas-btn {
+    position: absolute;
+    background: none;
+    border:none;
+    font-size: 30px;
+    transition: .5 ease;
+    width: 0;
+    height: 0;
+    display: flex;
+    right: 50px;
+  }
+  .offcanvas-btn:hover{
+    color: #ff7800;
+  }
+  .offcanvas-bottom{
+
+    height: 40vh;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .offcanvas-bottom .ratio-16x9{
+    --bs-aspect-ratio: calc(9 /12 * 100%);
+  }
+  .offcanvas-bottom .editor-choice{
+    margin-top: 2rem;
+  }
+  /*------------------scrollbar-----------------------------------*/
+
+ 
+
+  .all-single-boxs {
+    max-height: 875px;
+    padding: 1rem;
+
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: #ff7800 #e4e4e4;
+    scrollbar-width: thin;
+ 
+}
+  
+  .single-box:nth-child(1){
+    margin-top: -1rem;
+  }
+  .all-single-boxs::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  .all-single-boxs::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  
+  .all-single-boxs::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: #8070d4;
+  }
+
+
+
+
+  /*---------------------ratio--------------------------*/
+  .single-box .ratio{
+    border-radius: .5rem;
+  }
+  .single-box-content p{
+  color: #000;
+    max-height: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    margin:1.3rem auto;
+    overflow: hidden;
+  }
+  .single-box-content span{
+    margin-top: 10px !important;
+    position: absolute;
+    left:4px;
+    bottom: 12px;
+    font-size: 12px !important;
+  }
+  .single-box-content{
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  .single-box{
+    margin-top: .5rem;
+  }
+
+
+
+
+
+
+  .video-btn-group{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
+  .video-btn-group button svg{
+     transition: 0.5s ease;
+  }
+  .video-btn-group button {
+    text-transform: capitalize;
+    font-size: 14px;
+  
+  }
+  .video-btn-group button:hover svg{
+  color: #f27e0f;
+  }
+
+
+
+  .img-div span {
+    color: rgb(140, 126, 126);
+    font-size: 12px;
+}
+ .img-div span svg {
+    color: #f27e0f;
+    margin-right: 6px;
+}
+
+
+.single-box-content  span {
+    color: rgb(140, 126, 126);
+    font-size: 12px;
+}
+ .single-box-content  span svg {
+    color: #f27e0f;
+    margin-right: 6px;
+}
