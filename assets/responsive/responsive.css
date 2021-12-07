@@ -106,7 +106,7 @@
         font-size: 14px !important;
         max-height: 33px !important;
 
-        margin-top: -5px;
+        margin-top: 5px;
     }
     /*-----------*/
     .row-small-div .ratio h6 {
@@ -174,7 +174,12 @@
     width: 100% !important;
     padding: 0;
 }
- 
+.hero-slider{
+    margin-top: 3.6rem;
+  }
+  .navbar{
+         background-image: linear-gradient(315deg, #fb5204 0%, #27aaaa 74%) !important;
+  }
   
     .catagory-slider {
         display: block;
